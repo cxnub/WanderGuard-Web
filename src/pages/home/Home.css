@@ -1,0 +1,199 @@
+.home-layout {
+    height: 100vh;
+    font-family: "poppins", sans-serif;
+}
+
+.dashboard-header-bar {
+    height: 90px;
+    padding: 20px;
+}
+
+.dashboard-header-bar img {
+    max-width: 240px;
+}
+
+.left-panel {
+    height: calc(100vh - 130px);
+    min-width: 500px;
+    max-width: 600px;
+}
+
+@media (max-width: 992px) {
+    .right-panel {
+        display: none !important;
+    }
+
+    .left-panel {
+        width: 100%;
+        max-width: 600px;
+        padding: 0px 20px;
+    }
+
+    .dashboard-container {
+        justify-content: center;
+    }
+}
+
+.patient-list {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    position: relative;
+}
+
+.patient-list:last-child {
+    margin-bottom: 0px;
+}
+
+.scroll-shadow {
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(177, 177, 177, 0) 100%);
+}
+
+.patient-card {
+    color: var(--white);
+    transition: 0.1s linear;
+}
+
+.patient-card:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.315);
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.status-card {
+    color: var(--white);
+}
+
+.cert-link {
+    text-decoration: none;
+}
+
+.cert-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.map-container {
+    overflow: hidden;
+    z-index: 1;
+}
+
+.map-btn-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    z-index: 400;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.safe-zone-btn {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.safe-zone-btn:hover,
+.safe-zone-btn:hover:active,
+.safe-zone-btn:focus-visible {
+    background-color: var(--green-hover);
+    color: var(--white);
+}
+
+.patient-btn {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.patient-btn:hover,
+.patient-btn:hover:active,
+.patient-btn:focus-visible {
+    background-color: var(--red-hover);
+    color: var(--white);
+}
+
+.logout-btn {
+    color: var(--primary-700);
+    background-color: transparent;
+    outline: 1px solid var(--primary-700);
+}
+
+.logout-btn:hover {
+    color: var(--white);
+    background-color: var(--primary-500);
+    outline: none;
+}
+
+.logout-btn:hover:active {
+    color: var(--white);
+    background-color: var(--primary-400);
+}
+
+.add-btn,
+.edit-btn,
+.remove-btn,
+.save-changes-btn {
+    color: var(--white);
+    font-weight: 500;
+}
+
+.add-btn,
+.edit-btn,
+.save-changes-btn {
+    background-color: var(--green);
+}
+
+.add-btn:hover,
+.edit-btn:hover,
+.save-changes-btn:hover {
+    background-color: var(--green-hover);
+    color: var(--white);
+}
+
+.add-btn:hover:active,
+.add-btn:active,
+.add-btn:focus-visible,
+.edit-btn:hover:active,
+.edit-btn:active,
+.edit-btn:focus-visible,
+.save-changes-btn:hover:active,
+.save-changes-btn:active,
+.save-changes-btn:focus-visible {
+    background-color: var(--green-hover) !important;
+    color: var(--white) !important;
+}
+
+.edit-btn, .save-changes-btn, .cancel-btn {
+    flex: 1 1 0px;
+}
+
+.remove-btn {
+    background-color: var(--red);
+    flex: 1 1 0px;
+}
+
+.remove-btn:hover,
+.remove-btn:hover:active,
+.remove-btn:active,
+.remove-btn:focus-visible {
+    background-color: var(--red-hover) !important;
+    color: var(--white) !important;
+}
+
+.cancel-btn {
+    background-color: var(--background-100);
+}
+
+.cancel-btn:hover,
+.cancel-btn:hover:active,
+.cancel-btn:active,
+.cancel-btn:focus-visible {
+    background-color: var(--background-200);
+}
+
+.remove-modal {
+    background-color: rgba(0, 0, 0, 0.5);
+}

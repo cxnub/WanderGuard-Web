@@ -1,0 +1,27 @@
+[
+  {
+    "last_name": "doe",
+    "safe_zone_radius": 1360,
+    "first_name": "John",
+    "uuid": "666ceb08-8e28-4dae-81a6-a5833c0fe83c",
+    "email": "johndoe@gmail.com",
+    "caregiver_uuid": "b8f01527-331d-427f-9ab2-57615c371e8b",
+    "safe_zone_location": { "lng": 103.8198, "lat": 1.3521 },
+    "status": "Safe",
+    "last_updated": "1738204215.017923",
+    "location": { "lat": -41, "lng": 131.584966 },
+    "heart_rate": 104,
+    "speed": 1,
+    "device": {
+      "certificate_arn": "arn:aws:iot:us-east-1:716513171636:cert/2ec4397bbff240926e2f189a8339235de8d344822fc6c7de3c19e0f3f4ed36e1",
+      "patient_uuid": "666ceb08-8e28-4dae-81a6-a5833c0fe83c",
+      "topic": "device/Tracker-ID-QAXAEC3SH747/telemetry",
+      "certificate_id": "2ec4397bbff240926e2f189a8339235de8d344822fc6c7de3c19e0f3f4ed36e1",
+      "presigned_url": "https://wanderguard-device-certs.s3.amazonaws.com/666ceb08-8e28-4dae-81a6-a5833c0fe83c/credentials.zip?AWSAccessKeyId=ASIA2NU4DLC2NZMQBMU5&Signature=%2BlZ8bJQa16mnLwtKYYJkZI5R3AI%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDBzBkv7WQNjrj5a1e7c4eeV%2BwWEBfq9eDBG%2B0F60YQMwIhAI39cnbjr6ZmEOo0BAnLIyXVMkLwGcxJO4VwRuyZqJ5WKvsCCJv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNzE2NTEzMTcxNjM2IgyH4%2BPOgU1exQfif%2BcqzwIn5AjkvFkAuEXlxPsXRddhqxUJzFEJ%2B2uzgv5dfUpCh8DmPkV4cfZxe5NmPfXknIETpI1f0H4UTccoiO0fn55%2BgwO5z0RhsKNt4AWKm%2FQATpuOaF7dKjlyDOdwqsyNM%2BglmZdLVzXBdmxvgrSU37tQBCynqMeMAHDFChUo3TVq9Xe3BN48Mx3Wcvl4ImvNnYpi6OK%2F9ZGr1V4awGhAU54Lns18GTaBCfJeOX3N0MntXfqMDYaz7EWo4YtS5pmFuBjCmxFLO71Kh9R%2BzTIPSOPAqfCN98KNPxiTLBgB9zA%2Fl%2FsnvnfMZmc3dJoUm6Oi5%2FPNc4dAJFzZ33xxfX5hWLAoQxHlD0d5mmPWNXvIzNzaUawoNM9QXatCrAaUPKfN3TZMQputvKnWirTai5XIKHfVOVUOJKXTGTsom9VPnxuOLz0Fq7K8BlZh07cjWvswCjCYwuu8BjqdAclUAH%2BRIuliYv2q0OT%2BGeIOYoNAsxFcvY0k9lFVtCbii5fMp83brFwGwHVHYoNMF8B3wk4YWAmbibliw%2BTdUk3itmFSn72I0DdIHWuVZKErDhaAzybW7pyOVKWU77PxujwvgPD3JHLdRc0oRRRoEjQoE3nm0ts%2FlYp6Or%2BmtB%2BV7Js7MqtIwJOIHAfajvWxfbFb0G3l8boUpPP6yDQ%3D&Expires=1738203773",
+      "endpoint": "a1e390wsq31go7-ats.iot.us-east-1.amazonaws.com",
+      "thing_name": "Tracker-ID-QAXAEC3SH747",
+      "type": "wander_tracker"
+    },
+    "presigned_url": "https://wanderguard-device-certs.s3.amazonaws.com/666ceb08-8e28-4dae-81a6-a5833c0fe83c/credentials.zip?AWSAccessKeyId=ASIA2NU4DLC2NZMQBMU5&Signature=%2BlZ8bJQa16mnLwtKYYJkZI5R3AI%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDBzBkv7WQNjrj5a1e7c4eeV%2BwWEBfq9eDBG%2B0F60YQMwIhAI39cnbjr6ZmEOo0BAnLIyXVMkLwGcxJO4VwRuyZqJ5WKvsCCJv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNzE2NTEzMTcxNjM2IgyH4%2BPOgU1exQfif%2BcqzwIn5AjkvFkAuEXlxPsXRddhqxUJzFEJ%2B2uzgv5dfUpCh8DmPkV4cfZxe5NmPfXknIETpI1f0H4UTccoiO0fn55%2BgwO5z0RhsKNt4AWKm%2FQATpuOaF7dKjlyDOdwqsyNM%2BglmZdLVzXBdmxvgrSU37tQBCynqMeMAHDFChUo3TVq9Xe3BN48Mx3Wcvl4ImvNnYpi6OK%2F9ZGr1V4awGhAU54Lns18GTaBCfJeOX3N0MntXfqMDYaz7EWo4YtS5pmFuBjCmxFLO71Kh9R%2BzTIPSOPAqfCN98KNPxiTLBgB9zA%2Fl%2FsnvnfMZmc3dJoUm6Oi5%2FPNc4dAJFzZ33xxfX5hWLAoQxHlD0d5mmPWNXvIzNzaUawoNM9QXatCrAaUPKfN3TZMQputvKnWirTai5XIKHfVOVUOJKXTGTsom9VPnxuOLz0Fq7K8BlZh07cjWvswCjCYwuu8BjqdAclUAH%2BRIuliYv2q0OT%2BGeIOYoNAsxFcvY0k9lFVtCbii5fMp83brFwGwHVHYoNMF8B3wk4YWAmbibliw%2BTdUk3itmFSn72I0DdIHWuVZKErDhaAzybW7pyOVKWU77PxujwvgPD3JHLdRc0oRRRoEjQoE3nm0ts%2FlYp6Or%2BmtB%2BV7Js7MqtIwJOIHAfajvWxfbFb0G3l8boUpPP6yDQ%3D&Expires=1738203773"
+  }
+]

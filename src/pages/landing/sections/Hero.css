@@ -1,0 +1,50 @@
+.hero-section {
+    text-align: center;
+    position: relative;
+}
+
+.hero-section h1 {
+    line-height: 4rem;
+    display: flex;
+    flex-direction: column;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+}
+
+.get-started {
+    background-color: var(--primary-500);
+    border: none;
+}
+
+.get-started:hover {
+    background-color: var(--primary-600);
+}
+
+.get-started:hover:active {
+    background-color: var(--primary-700);
+}
+
+/* Animation container */
+.animation {
+    display: inline-block;
+    vertical-align: bottom;
+    height: 4rem;
+    width: fit-content;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.dynamic-words {
+    transition: width 0.2s ease;
+    /* border: 1px solid orange; */
+}
+
+/* Changing words */
+.dynamic-word {
+    color: var(--primary-500);
+    vertical-align: middle;
+    text-align: left;
+    width: min-content;
+    display: inline-block;
+    white-space: nowrap;
+}

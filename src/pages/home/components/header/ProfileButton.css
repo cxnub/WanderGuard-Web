@@ -1,0 +1,56 @@
+.profile-btn {
+    border: none;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.dropdown-profile-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-profile-container:hover .profile-card {
+    max-height: 600px;
+    padding: 20px;
+}
+
+.dropdown-profile-container:hover .profile-btn i {
+    transform: rotateZ(180deg);
+    color: var(--primary-600);
+}
+
+.dropdown-profile-container:hover .profile-btn {
+    color: var(--primary-600);
+}
+
+.profile-btn i {
+    transform: rotateZ(0deg);
+    transition: 0.1s ease-in-out;
+    display: inline-block;
+}
+
+.profile-card {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: var(--background-50);
+    flex-direction: column;
+    white-space: nowrap;
+    z-index: 1;
+    overflow: hidden;
+    max-height: 0;
+    transition: 0.1s ease-in-out;
+    border-radius: 12px;
+}
+
+.verification-code {
+    text-decoration: none;
+    color: var(--text-900);
+}
+
+.verification-code:hover {
+    cursor: pointer;
+}
+
+

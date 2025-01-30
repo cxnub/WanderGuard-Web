@@ -1,0 +1,109 @@
+.auth-container {
+    background: linear-gradient(135deg, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1), rgba(112, 250, 0, 1));
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.auth-card {
+    font-family: "poppins", sans-serif;
+    background-color: var(--white);
+    max-width: 460px;
+    width: 100%;
+    height: 500px;
+}
+
+.email-input:focus,
+.email-input:focus-visible,
+.password-input:focus,
+.password-input:focus-visible {
+    box-shadow: none;
+    background-color: var(--background-50);
+    outline: 1px black solid;
+}
+
+.email-input,
+.password-input,
+.email-input:-webkit-autofill,
+.password-input:-webkit-autofill {
+    background-color: var(--background-50) !important;
+    border: none;
+    -webkit-box-shadow: 0 0 0 1000px var(--background-50) inset !important;
+}
+
+.forgot-password {
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    cursor: pointer;
+}
+
+.primary-btn {
+    color: var(--text-50);
+    border: none;
+    background-color: var(--primary-500);
+    transition: 0.4s;
+}
+
+.primary-btn:hover,
+.primary-btn:hover:active {
+    color: var(--text-50);
+    background-color: var(--primary-600);
+}
+
+.primary-btn:disabled {
+    background-color: var(--primary-500);
+    color: var(--text-50);
+}
+
+.secondary-btn {
+    border-color: var(--text-300);
+    color: var(--text-500);
+}
+
+.secondary-btn:hover,
+.secondary-btn:hover:active {
+    background-color: var(--grey);
+    color: var(--black);
+    border-color: var(--black);
+}
+
+.error-msg {
+    padding: 0;
+    padding-left: 4px;
+    padding-top: 4px;
+    margin: 0;
+    font-size: 12px;
+    color: var(--red);
+}
+
+.request-error-msg {
+    padding: 12px;
+    border-radius: 8px;
+    margin: 0;
+    font-size: 16px;
+    color: var(--red);
+    background-color: var(--background-50);
+}

@@ -1,0 +1,33 @@
+.header-bar img {
+    max-width: 240px;
+}
+
+.header-bar button {
+    font-weight: 600;
+}
+
+.header-bar {
+    background-color: var(--background-50) !important;
+}
+
+.login-btn {
+    color: var(--text-900);
+    border: none;
+    transition: 0.4s;
+}
+
+.login-btn:hover, .login-btn:hover:active {
+    color: var(--text-500);
+    background-color: transparent;
+}
+
+.signup-btn {
+    border-color: var(--text-300);
+    color: var(--text-500);
+}
+
+.signup-btn:hover, .signup-btn:hover:active {
+    background-color: var(--grey);
+    color: var(--black);
+    border-color: var(--black);
+}

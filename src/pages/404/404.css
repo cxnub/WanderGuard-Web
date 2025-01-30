@@ -1,0 +1,13 @@
+.not-found-container {
+    background-image: url("./404-background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "poppins", sans-serif;
+}
+
+.info-container {
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+}
+
