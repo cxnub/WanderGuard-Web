@@ -1,2 +1,2 @@
 # wanderguard-web
- Front-end website for WanderGuardAI
+ Front-end React website for WanderGuardAI
