@@ -94,7 +94,7 @@ export const usePatientContext = () => {
 
     // poll the server for updates every 10 seconds
     useEffect(() => {
-        const interval = setInterval(fetchPatients, 10000);
+        const interval = setInterval(fetchPatients, 1000);
 
         return () => clearInterval(interval);
     }, [fetchPatients, token, updatePatients]);

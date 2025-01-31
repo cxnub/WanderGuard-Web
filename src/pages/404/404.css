@@ -1,5 +1,5 @@
 .not-found-container {
-    background-image: url("404-background.svg");
+    background-image: url("./404-background.svg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "poppins", sans-serif;
